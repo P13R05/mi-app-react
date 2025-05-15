@@ -14,7 +14,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 1 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_1.png" alt="Servicio Express" />
+              <Card.Img variant="top" src="imagenes/fastgo_servicio_1.png" alt="Servicio Express" />
               <Card.Body>
                 <Card.Title>Entrega Express</Card.Title>
                 <Card.Text>Envíos en menos de 2 horas dentro de la Región Metropolitana.</Card.Text>
@@ -27,7 +27,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 2 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_2.png" alt="Servicio Normal" />
+              <Card.Img variant="top" src="/imagenes/fastgo_servicio_2.png" alt="Servicio Normal" />
               <Card.Body>
                 <Card.Title>Entrega Estándar</Card.Title>
                 <Card.Text>Servicio económico con entrega durante el día.</Card.Text>
@@ -40,7 +40,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 3 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_3.png" alt="Servicio Same Day" />
+              <Card.Img variant="top" src="/imagenes/fastgo_servicio_3.png" alt="Servicio Same Day" />
               <Card.Body>
                 <Card.Title>Entrega Mismo Día</Card.Title>
                 <Card.Text>Recolección y entrega antes de las 18:00 hrs.</Card.Text>
@@ -53,7 +53,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 4 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_4.png" alt="Seguimiento" />
+              <Card.Img variant="top" src="/imagenes/fastgo_servicio_4.png" alt="Seguimiento" />
               <Card.Body>
                 <Card.Title>Seguimiento en Tiempo Real</Card.Title>
                 <Card.Text>Sigue en todo momento el estado de tus productos.</Card.Text>
@@ -66,7 +66,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 5 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_5.png" alt="Corporativo" />
+              <Card.Img variant="top" src="/imagenes/fastgo_servicio_5.png" alt="Corporativo" />
               <Card.Body>
                 <Card.Title>Plan Corporativo</Card.Title>
                 <Card.Text>Descuentos especiales para empresas con alto volumen de envíos.</Card.Text>
@@ -79,7 +79,7 @@ const Servicios: React.FC = () => {
           {/* Servicio 6 */}
           <Col md={4} className="mb-4">
             <Card>
-              <Card.Img variant="top" src="images/fastgo_servicio_6.png" alt="Regional" />
+              <Card.Img variant="top" src="/imagenes/fastgo_servicio_6.png" alt="Regional" />
               <Card.Body>
                 <Card.Title>Envíos Regionales</Card.Title>
                 <Card.Text>Conectamos ciudades cercanas con rapidez y seguridad.</Card.Text>

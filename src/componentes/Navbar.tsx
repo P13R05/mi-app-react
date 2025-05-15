@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import FastGoImage from '/FastGo.png'; 
+import FastGoImage from '../assets/FastGo.png';
 
 const Menu: React.FC = () => {
   return (
