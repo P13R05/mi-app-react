@@ -1,0 +1,47 @@
+{
+  "name": "Project",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "T\u00edtulo del proyecto"
+    },
+    "description": {
+      "type": "string",
+      "description": "Descripci\u00f3n del proyecto"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "cctv",
+        "alarmas",
+        "control_acceso",
+        "domotica",
+        "redes"
+      ],
+      "description": "Categor\u00eda del proyecto"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "URL de la imagen del proyecto"
+    },
+    "client": {
+      "type": "string",
+      "description": "Nombre del cliente"
+    },
+    "location": {
+      "type": "string",
+      "description": "Ubicaci\u00f3n del proyecto"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Proyecto destacado"
+    }
+  },
+  "required": [
+    "title",
+    "description",
+    "category"
+  ]
+}

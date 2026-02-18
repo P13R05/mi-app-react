@@ -1,0 +1,14 @@
+import React, { createContext, useContext } from 'react';
+
+const AuthContext = createContext({ user: null, loading: false });
+
+export const AuthProvider = ({ children }) => {
+  // Solo devuelve los hijos, sin lógica de login
+  return (
+    <AuthContext.Provider value={{ user: null, loading: false }}>
+      {children}
+    </AuthContext.Provider>
+  );
+};
+
+export const useAuth = () => useContext(AuthContext);

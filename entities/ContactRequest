@@ -1,0 +1,51 @@
+{
+  "name": "ContactRequest",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Nombre del cliente"
+    },
+    "email": {
+      "type": "string",
+      "description": "Email de contacto"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Tel\u00e9fono de contacto"
+    },
+    "service": {
+      "type": "string",
+      "enum": [
+        "cctv",
+        "alarmas",
+        "control_acceso",
+        "domotica",
+        "redes",
+        "otro"
+      ],
+      "description": "Servicio de inter\u00e9s"
+    },
+    "message": {
+      "type": "string",
+      "description": "Mensaje o descripci\u00f3n del proyecto"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "contacted",
+        "quoted",
+        "completed"
+      ],
+      "default": "pending",
+      "description": "Estado de la solicitud"
+    }
+  },
+  "required": [
+    "name",
+    "email",
+    "phone",
+    "message"
+  ]
+}
