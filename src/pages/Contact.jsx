@@ -76,7 +76,7 @@ export default function Contact() {
             <div className="space-y-4">
               <div className="flex items-center gap-4 text-muted-foreground">
                 <div className="p-3 bg-primary/10 rounded-full text-primary"><Phone size={20} /></div>
-                <span>+56 9 XXXX XXXX</span>
+                <span>+56 9 5525 4323</span>
               </div>
               <div className="flex items-center gap-4 text-muted-foreground">
                 <div className="p-3 bg-primary/10 rounded-full text-primary"><Mail size={20} /></div>
@@ -84,7 +84,7 @@ export default function Contact() {
               </div>
               <div className="flex items-center gap-4 text-muted-foreground">
                 <div className="p-3 bg-primary/10 rounded-full text-primary"><MapPin size={20} /></div>
-                <span>Santiago, Chile</span>
+                <span>Av Cristóbal Colón 9193<br />Las Condes, Santiago, Chile</span>
               </div>
             </div>
           </div>
